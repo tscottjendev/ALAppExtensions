@@ -2,8 +2,8 @@ name: Update Package Versions
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "55 03 * * 2" # Run at 03:55 UTC on Tuesday
+  # schedule:
+  #   - cron: "55 03 * * 2" # Run at 03:55 UTC on Tuesday
 
 defaults:
   run:
